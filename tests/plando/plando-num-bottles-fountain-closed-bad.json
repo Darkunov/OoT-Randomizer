@@ -3,9 +3,9 @@
     "zora_fountain": "closed"
   },
   "locations": {
-    "Mido Chest Top Left":                                   "Bottle with Milk",
-    "Mido Chest Top Right":                                  "Bottle with Milk",
-    "Mido Chest Bottom Left":                                "Bottle with Milk",
-    "Mido Chest Bottom Right":                               "Bottle with Milk"
+    "KF Mido Chest Top Left":                                   "Bottle with Milk",
+    "KF Mido Chest Top Right":                                  "Bottle with Milk",
+    "KF Mido Chest Bottom Left":                                "Bottle with Milk",
+    "KF Mido Chest Bottom Right":                               "Bottle with Milk"
   }
 }

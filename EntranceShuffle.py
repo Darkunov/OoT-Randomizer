@@ -95,8 +95,8 @@ entrance_shuffle_table = [
                         ('Castle Town Mask Shop -> Castle Town',                            { 'index': 0x01D1 })),
     ('Interior',        ('Castle Town -> Castle Town Bombchu Bowling',                      { 'index': 0x0507 }),
                         ('Castle Town Bombchu Bowling -> Castle Town',                      { 'index': 0x03BC })),
-    ('Interior',        ('Castle Town -> Castle Town Potion Shop',                          { 'index': 0x0388 }),
-                        ('Castle Town Potion Shop -> Castle Town',                          { 'index': 0x02A2 })),
+    ('Interior',        ('Castle Town -> Market Potion Shop',                          { 'index': 0x0388 }),
+                        ('Market Potion Shop -> Castle Town',                          { 'index': 0x02A2 })),
     ('Interior',        ('Castle Town -> Castle Town Treasure Chest Game',                  { 'index': 0x0063 }),
                         ('Castle Town Treasure Chest Game -> Castle Town',                  { 'index': 0x01D5 })),
     ('Interior',        ('Castle Town -> Castle Town Bombchu Shop',                         { 'index': 0x0528 }),
@@ -109,8 +109,8 @@ entrance_shuffle_table = [
                         ('House of Skulltula -> Kakariko Village',                          { 'index': 0x04EE })),
     ('Interior',        ('Kakariko Village -> Impas House',                                 { 'index': 0x039C }),
                         ('Impas House -> Kakariko Village',                                 { 'index': 0x0345 })),
-    ('Interior',        ('Kakariko Impa Ledge -> Impas House Back',                         { 'index': 0x05C8 }),
-                        ('Impas House Back -> Kakariko Impa Ledge',                         { 'index': 0x05DC })),
+    ('Interior',        ('Kakariko Impas Ledge -> Impas House Back',                         { 'index': 0x05C8 }),
+                        ('Impas House Back -> Kakariko Impas Ledge',                         { 'index': 0x05DC })),
     ('Interior',        ('Kakariko Village Backyard -> Odd Medicine Building',              { 'index': 0x0072 }),
                         ('Odd Medicine Building -> Kakariko Village Backyard',              { 'index': 0x034D })),
     ('Interior',        ('Graveyard -> Dampes House',                                       { 'index': 0x030D }),
@@ -221,15 +221,15 @@ entrance_shuffle_table = [
                         ('Gerudo Valley Storms Grotto -> Gerudo Valley Far Side',           { 'grotto_id': 0x1E })),
     ('Grotto',          ('Gerudo Valley -> Gerudo Valley Octorok Grotto',                   { 'grotto_id': 0x1F, 'entrance': 0x05AC, 'content': 0xF2, 'scene': 0x5A }),
                         ('Gerudo Valley Octorok Grotto -> Gerudo Valley',                   { 'grotto_id': 0x1F })),
-    ('Grotto',          ('Lost Woods Beyond Mido -> Deku Theater',                          { 'grotto_id': 0x20, 'entrance': 0x05C4, 'content': 0xF3, 'scene': 0x5B }),
-                        ('Deku Theater -> Lost Woods Beyond Mido',                          { 'grotto_id': 0x20 })),
+    ('Grotto',          ('Lost Woods Beyond Mido -> Forest Stage',                          { 'grotto_id': 0x20, 'entrance': 0x05C4, 'content': 0xF3, 'scene': 0x5B }),
+                        ('Forest Stage -> Lost Woods Beyond Mido',                          { 'grotto_id': 0x20 })),
 
     ('Grave',           ('Graveyard -> Shield Grave',                                       { 'index': 0x004B }),
                         ('Shield Grave -> Graveyard',                                       { 'index': 0x035D })),
     ('Grave',           ('Graveyard -> Heart Piece Grave',                                  { 'index': 0x031C }),
                         ('Heart Piece Grave -> Graveyard',                                  { 'index': 0x0361 })),
-    ('Grave',           ('Graveyard -> Composer Grave',                                     { 'index': 0x002D }),
-                        ('Composer Grave -> Graveyard',                                     { 'index': 0x050B })),
+    ('Grave',           ('Graveyard -> Composers Grave',                                     { 'index': 0x002D }),
+                        ('Composers Grave -> Graveyard',                                     { 'index': 0x050B })),
 
     ('SpecialGrave',    ('Graveyard -> Dampes Grave',                                       { 'index': 0x044F }),
                         ('Dampes Grave -> Graveyard',                                       { 'index': 0x0359 })),
@@ -288,7 +288,7 @@ entrance_shuffle_table = [
                         ('Zoras Fountain -> Zoras Domain Behind King Zora',                 { 'index': 0x01A1 })),
 
     ('OwlDrop',         ('Lake Hylia Owl Flight -> Hyrule Field',                           { 'index': 0x027E, 'code_address': 0xAC9F26 })),
-    ('OwlDrop',         ('Death Mountain Summit Owl Flight -> Kakariko Impa Ledge',         { 'index': 0x0554, 'code_address': 0xAC9EF2 })),
+    ('OwlDrop',         ('Death Mountain Summit Owl Flight -> Kakariko Impas Ledge',         { 'index': 0x0554, 'code_address': 0xAC9EF2 })),
 ]
 
 
@@ -611,7 +611,7 @@ def validate_worlds(worlds, entrance_placed, locations_to_ensure_reachable, item
 
             if world.shuffle_cows:
                 impas_front_entrance = get_entrance_replacing(world.get_region('Impas House'), 'Kakariko Village -> Impas House')
-                impas_back_entrance = get_entrance_replacing(world.get_region('Impas House Back'), 'Kakariko Impa Ledge -> Impas House Back')
+                impas_back_entrance = get_entrance_replacing(world.get_region('Impas House Back'), 'Kakariko Impas Ledge -> Impas House Back')
                 check_same_hint_region(impas_front_entrance, impas_back_entrance)
 
     return

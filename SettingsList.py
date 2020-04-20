@@ -158,7 +158,7 @@ logic_tricks = {
                     race as child in under a minute, but it is
                     a strict time limit.
                     '''},
-    'Man on Roof without Hookshot': {
+    'Kak Man on Roof without Hookshot': {
         'name'    : 'logic_man_on_roof',
         'tooltip' : '''\
                     Can be reached by side-hopping off
@@ -210,7 +210,7 @@ logic_tricks = {
                     - MQ Fire Temple Lizalfos Maze.
                     - MQ Spirit Trial.
                     '''},
-    'Bottom of the Well Basement Chest with Strength & Sticks': {
+    'Bottom of the Well Map Chest with Strength & Sticks': {
         'name'    : 'logic_botw_basement',
         'tooltip' : '''\
                     The chest in the basement can be reached with
@@ -305,7 +305,7 @@ logic_tricks = {
                     and then swim straight to the exit. You should grab the
                     ledge as you surface. It works best if you don't mash B.
                     '''},
-    'Adult Kokiri Forest GS with Hover Boots': {
+    'Adult KF GS with Hover Boots': {
         'name'    : 'logic_adult_kokiri_gs',
         'tooltip' : '''\
                     Can be obtained without Hookshot by using the Hover
@@ -458,7 +458,7 @@ logic_tricks = {
                     so that Link will grab the ledge from farther away than
                     is normally possible.
                     '''},
-    'Diving in the Lab without Gold Scale': {
+    'LH Lab Dive without Gold Scale': {
         'name'    : 'logic_lab_diving',
         'tooltip' : '''\
                     Remove the Iron Boots in the midst of
@@ -631,7 +631,7 @@ logic_tricks = {
                     needing a Bow.
                     Applies in both vanilla and MQ Shadow.
                     '''},
-    'Stop Link the Goron with Din\'s Fire': {
+    'Stop GC Rolling Goron as Adult with Din\'s Fire': {
         'name'    : 'logic_link_goron_dins',
         'tooltip' : '''\
                     The timing is quite awkward.
@@ -647,7 +647,7 @@ logic_tricks = {
                     A precise jump can be used to skip
                     pushing the block.
                     '''},
-    'Fire Temple MQ Big Lava Room Bombable Chest without Hookshot': {
+    'Fire Temple MQ Big Lava Room South Goron without Hookshot': {
         'name'    : 'logic_fire_mq_bombable_chest',
         'tooltip' : '''\
                     A precisely-angled jump can get over the wall
@@ -832,7 +832,7 @@ logic_tricks = {
                     coming into this room from above by going through
                     the serpent river.
                     '''},
-    'Goron City Leftmost Maze Chest with Hover Boots': {
+    'GC Maze Left Chest with Hover Boots': {
         'name'    : 'logic_goron_city_leftmost',
         'tooltip' : '''\
                     A precise backwalk starting from on top of the
@@ -1369,16 +1369,16 @@ setting_infos = [
         },
         gui_tooltip    = '''\
             'Default Behavior': King Zora obstructs the way to
-            Zora's Fountain. Ruto's Letter must be shown as
+            Zora's Fountain. Rutos Letter must be shown as
             child in order to move him for both eras.
 
             'Open For Adult': King Zora is always moved in 
-            the adult era. This means Ruto's Letter is only
+            the adult era. This means Rutos Letter is only
             required to access Zora's Fountain as child.
 
             'Always Open': King Zora starts as moved in
             both the child and adult eras. This also removes 
-            Ruto's Letter from the pool since it can't be used.
+            Rutos Letter from the pool since it can't be used.
         ''',
         shared         = True,
         gui_params     = {
@@ -2424,8 +2424,8 @@ setting_infos = [
             Selecting multiple progressive items will give
             the appropriate number of upgrades.
             
-            If playing with Open Zora Fountain, the Bottle
-            with Letter is converted to a regular Bottle.
+            If playing with Open Zora Fountain, the Rutos Letter
+            is converted to a regular Bottle.
         ''',
     ),
     Setting_Info(

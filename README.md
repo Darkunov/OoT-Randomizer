@@ -244,7 +244,7 @@ player.
 * Shuffle Magic Beans
   * A pack of 10 beans is shuffled into the pool and the Bean Salesman sells a random item once for 60 rupees.
 * Cucco Count
-  * The number of cuccos to be gathered for Anju can be reduced or randomized, and Anju will tell you in-game the target number to catch (similar to 10 Big Poes).
+  * The number of cuccos to be gathered for Anju can be reduced or randomized, and Anju will tell you in-game the target number to catch (similar to Market 10 Big Poes).
 * Enable Useful Cutscenes prevents some useful cutscenes from being skipped
   * Re-enables Poes at Forest Temple, Darunia at Fire Temple, and Twinrova at Spirit Temple
 
@@ -290,7 +290,7 @@ player.
     * This allows playing with open bridge while still requiring dungeon completion
   * This replaces the Remove Ganon’s Boss Door Lock option
 * Plentiful Item Pool
-  * Duplicate Letter in a Bottle added to plentiful item pool
+  * Duplicate Ruto's Letter added to plentiful item pool
 * With `Start With Max Rupees` option enabled, wallet upgrades items now fill to max rupees
 
 #### Bug Fixes
@@ -372,7 +372,7 @@ player.
 * Start with Tycoon wallet
 * Open Zora's Fountain
   * King Zora is moved to the side from the start of the game.
-  * Letter in a Bottle is removed from the item pool and replaced with an Empty Bottle.
+  * Ruto's Letter is removed from the item pool and replaced with an Empty Bottle.
 * Randomize starting time of day
 * Ice traps setting
     * Off: All ice traps are removed
@@ -449,7 +449,7 @@ player.
   * Red Rupee
   * Textbox about Dampé's grave
 * "Ganon's Tower" is now just "Ganon's Castle".
-* Dampé's Gravedigging Tour reward correctly flags collection on pickup.
+* Dampé's Graveyard Dampe Gravedigging Tour reward correctly flags collection on pickup.
 * Castle Moat Bridge no longer closes when playing the Zelda Escape cutscene.
 * Various logic fixes
 
